@@ -1,0 +1,432 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Veeam</title>
+    <link rel="shortcut icon" type="image/png" href="imgs/graphic.png">
+    <script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.fs.selecter.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <link rel="stylesheet" href="css/jquery.fs.selecter.css">
+    <script src="js/customjs.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width:990px)">
+    <link rel="stylesheet" href="css/phone.css" media="screen and (max-width:580px)">
+    <script>
+        $(document).ready(function(){
+            $(".tab-item").not(":first").hide();
+            $(".wrapper .tab").click(function () {
+                $(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+                $(".tab-item").hide().eq($(this).index()).fadeIn()
+            }).eq(0).addClass("active");
+        });
+    </script>
+</head>
+<body>
+<div id="popup-box" class="popup-info">
+    <iframe
+            width="672"
+            height="378"
+            src="http://www.youtube.com/embed/klModGpSKtc"
+            allowfullscreen>
+    </iframe>
+    <button type="button" class="close green-gradient">
+        Click to&nbsp;close the dialog box
+    </button>
+</div>
+<div class="container">
+    <header>
+        <div class="logos">
+            <a class="disp-block" href="#"><div class="main-logo"></div></a>
+            <div class="modern-data"></div>
+        </div>
+        <div class="breadcrumbs green-gradient">
+            <ol class="breadcrumb">
+                <li>
+                    <a href="#">White Papers</a>
+                </li>
+                <li class="bc-active">
+                    Annual Data Protection Report 2013
+                </li>
+            </ol>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="tabs">
+            <span class="tab">Enterprise Edition</span>
+            <span class="tab">SMB Edition</span>
+        </div>
+        <div class="tab-content">
+            <div class="tab-item">
+                <div class="banner">
+                    <h4>
+                        Annual Data Protection Report 2013: <span class="yellow">Enterprise and SMB Editions</span>
+                    </h4>
+
+                    <p>
+                        Survey of&nbsp;500 enterprises and 500 small&nbsp;/ medium businesses across USA, UK, Germany
+                        and France
+                    </p>
+                </div>
+                <div class="main-content">
+                    <div class="main-content-float">
+                        <h1>Enterprise Edition</h1>
+
+                        <h1>
+                            CIO study Shows Capability, Complexity and Cost Issues Hampering IT&nbsp;Departments
+                        </h1>
+
+                        <p>
+                            Key findings:
+                        </p>
+
+                        <div class="left-float">
+                            <a
+                                    href="http://go.veeam.com/rs/veeam/images/virtualization-data-protection-report2013-1.jpg"
+                                    class="disp-block reports"
+                                    >
+                                <div class="annual-dp-report"></div>
+                            </a>
+                            <a href="#popup-box" class="popup-window disp-block">
+                                <img
+                                        class="disp-block"
+                                        src="imgs/hands_on_guide_click.png"
+                                        alt="Annual report"
+                                        title="Annual report"
+                                        >
+                            </a>
+                        </div>
+                        <ul>
+                            <li>68% of&nbsp;CIOs feel that their backup and recovery tools will become less effective as&nbsp;the
+                                amount of&nbsp;data and servers in&nbsp;their organization grows
+                            </li>
+                            <li>67% of&nbsp;the virtual environment is&nbsp;backed-up meaning that almost a&nbsp;third of&nbsp;SMBs&rsquo;
+                            virtual infrastructure is&nbsp;unprotected
+                            </li>
+                            <li>88% of&nbsp;CIOs experience capability-related challenges with backup and recovery, 87% with
+                                cost and&nbsp;84% with complexity: showing that data protection is&nbsp;still not a&nbsp;simple
+                                task
+                            </li>
+                            <li>58% of&nbsp;CIOs are planning to&nbsp;change their backup tool for virtual environments by&nbsp;2014
+                            </li>
+                        </ul>
+                        <p class="download-info">
+                            Download the <a href="#">full report</a> to&nbsp;learn more and get the <a href="#">previous
+                            editions</a> (2011 and 2010)
+                        </p>    
+                    </div>
+                    <aside class="side-form">
+                    <form action="#" method="get">
+                        <h2>Register here</h2>
+
+                        <div class="table">
+                            <div class="row">
+                                <p><label for="name1" class="important-thing">First name</label></p>
+
+                                <p>
+                                    <input
+                                            type="text"
+                                            id="name1"
+                                            name="name"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><label for="surname1" class="important-thing">Last name</label></p>
+
+                                <p>
+                                    <input
+                                            type="text"
+                                            id="surname1"
+                                            name="surname"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><label for="email1" class="important-thing">Business email</label></p>
+
+                                <p>
+                                    <input
+                                            type="email"
+                                            id="email1"
+                                            name="email"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><label for="company1" class="important-thing">Company</label></p>
+
+                                <p>
+                                    <input
+                                            type="text"
+                                            id="company1"
+                                            name="company"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><span class="important-thing">Job title</span></p>
+
+                                <p>
+                                    <select name="jobtitle">
+                                        <option disabled selected>
+                                            Select job description
+                                        </option>
+                                        <option value="itspec">IT&nbsp;Specialist</option>
+                                        <option value="consultant">Consultant</option>
+                                        <option value="teamlead">Team Leader</option>
+                                    </select>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><span class="important-thing">Country</span></p>
+
+                                <p>
+                                    <select name="country">
+                                        <option value="usa" selected>United States</option>
+                                        <option value="russia">Russia</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="brazil">Brazil</option>
+                                        <option value="uk">UK</option>
+                                    </select>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p>State</p>
+
+                                <p>
+                                    <select name="state">
+                                        <option disabled selected>Select State</option>
+                                        <option value="al">Alabama</option>
+                                        <option value="ak">Alaska</option>
+                                        <option value="az">Arizona</option>
+                                        <option value="ar">Arkansas</option>
+                                        <option value="ca">California</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </div>
+                        <input 
+                            type="submit"
+                            value="Register"
+                            class="green-gradient-button"
+                        >
+                    </form>
+                </aside>
+                </div>
+            </div>
+            <div class="tab-item">
+                <div class="banner">
+                    <h4>
+                        Annual Data Protection Report 2013: <span class="yellow">Enterprise and SMB Editions</span>
+                    </h4>
+
+                    <p>
+                        Survey of&nbsp;500 enterprises and 500 small&nbsp;/ medium businesses across USA, UK, Germany
+                        and France
+                    </p>
+                </div>
+                <div class="main-content">
+                    <div class="main-content-float">
+                        <h1>SMB Edition</h1>
+
+                        <h1>
+                            85% of&nbsp;SMBs Experiencing Problems with Backup and Recovery
+                        </h1>
+
+                        <h2>Report shows&nbsp;55% will change backup tool by&nbsp;2014</h2>
+
+                        <p>
+                            Veeam reveals the findings of&nbsp;the recent SMB
+                            data protection survey:
+                        </p>
+
+                        <div class="left-float">
+                            <a
+                                    href="http://go.veeam.com/rs/veeam/images/virtualization-data-protection-report2013-smb-1.jpg"
+                                    class="disp-block reports"
+                                    >
+                                <div class="annual-smb-report"></div>
+                            </a>
+                            <a href="#popup-box" class="popup-window disp-block">
+                                <img
+                                        class="disp-block"
+                                        src="imgs/hands_on_guide_click.png"
+                                        alt="Annual report"
+                                        title="Annual report"
+                                        >
+                            </a>
+                        </div>
+                        <ul>
+                            <li>85% of&nbsp;SMBs are experiencing cost-related challenges with backup and recovery, 83% with
+                                capability and&nbsp;80% with complexity
+                            </li>
+                            <li>67% of&nbsp;the virtual environment is&nbsp;backed-up meaning that almost a&nbsp;third of&nbsp;SMBs&rsquo;
+                                virtual
+                                infrastructure is&nbsp;unprotected
+                            </li>
+                            <li>More than 1&nbsp;in&nbsp;6 (17%) recoveries of&nbsp;backed-up machines cause problems</li>
+                            <li>41% of&nbsp;SMBs stated that downtime in&nbsp;the event of&nbsp;an&nbsp;IT failure costs
+                                $150,000&nbsp;or more per
+                                hour
+                            </li>
+                        </ul>
+                        <h3>
+                            Infographics&nbsp;&mdash; SMB challenges with data protection in&nbsp;brief
+                        </h3>
+                        <div class="info-prev-images">                        
+                            <img
+                                    class="info-prev"
+                                    src="imgs/smb_ingographics_web_preview_1_cut.png"
+                                    alt="Ifographics_preview_2"
+                                    >
+                            <img
+                                    class="info-prev"
+                                    src="imgs/smb_ingographics_web_preview_2_cut.png"
+                                    alt="Ifographics_preview_2"
+                                    >
+                        </div>
+                    </div>
+                    <aside class="side-form">
+                    <form action="#" method="get">
+                        <h2>Register here</h2>
+
+                        <div class="table">
+                            <div class="row">
+                                <p><label for="name" class="important-thing">First name</label></p>
+
+                                <p>
+                                    <input
+                                            type="text"
+                                            id="name"
+                                            name="name"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><label for="surname" class="important-thing">Last name</label></p>
+
+                                <p>
+                                    <input
+                                            type="text"
+                                            id="surname"
+                                            name="surname"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><label for="email" class="important-thing">Business email</label></p>
+
+                                <p>
+                                    <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><label for="company" class="important-thing">Company</label></p>
+
+                                <p>
+                                    <input
+                                            type="text"
+                                            id="company"
+                                            name="company"
+                                            placeholder=""
+                                            required
+                                            >
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><span class="important-thing">Job title</span></p>
+
+                                <p>
+                                    <select name="jobtitle">
+                                        <option disabled selected>
+                                            Select job description
+                                        </option>
+                                        <option value="itspec">IT&nbsp;Specialist</option>
+                                        <option value="consultant">Consultant</option>
+                                        <option value="teamlead">Team Leader</option>
+                                    </select>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p><span class="important-thing">Country</span></p>
+
+                                <p>
+                                    <select name="country">
+                                        <option value="usa" selected>United States</option>
+                                        <option value="russia">Russia</option>
+                                        <option value="canada">Canada</option>
+                                        <option value="brazil">Brazil</option>
+                                        <option value="uk">UK</option>
+                                    </select>
+                                </p>
+                            </div>
+                            <div class="row">
+                                <p>State</p>
+
+                                <p>
+                                    <select name="state">
+                                        <option disabled selected>Select State</option>
+                                        <option value="al">Alabama</option>
+                                        <option value="ak">Alaska</option>
+                                        <option value="az">Arizona</option>
+                                        <option value="ar">Arkansas</option>
+                                        <option value="ca">California</option>
+                                    </select>
+                                </p>
+                            </div>
+                        </div>
+                        <input
+                            type="submit"
+                            value="Register"
+                            class="green-gradient-button"
+                        >
+                    </form>
+                </aside>
+                <p class="clear">
+                    <a href="#" class="azure">Click to&nbsp;view the full-size infographics</a>
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+</div>
+<footer>
+    <div class="socials">
+        <div class="tweet"></div>
+        <div class="linkedin"></div>
+        <div class="g1"></div>
+        <div class="fblike"></div>
+    </div>
+    <div class="footer-links">
+        <a href="#">White Papers</a>&nbsp;|
+        <a href="#">Virtualisation Webinars</a>&nbsp;|
+        <a href="#">Product Demos</a>&nbsp;|
+        <a href="#">Contact Sales</a>
+    </div>
+    <div class="copyright">Copyright &copy;&nbsp;2015 Veeam <sup>&reg;</sup> Software. <a class="azure" href="#">Privacy policy</a>
+    </div>
+</footer>
+
+</body>
+</html>

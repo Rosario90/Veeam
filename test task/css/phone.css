@@ -1,0 +1,132 @@
+/*Общий стиль*/
+*
+{
+    font-size: 13px;
+}
+
+
+/*Хэдер сайта*/
+.container header
+{
+    height: auto;
+}
+
+
+/*Логотипы*/
+.container header .logos
+{
+    height: auto;
+}
+.container header .logos a .main-logo
+{
+    float: none;
+    margin: 10px auto;
+}
+.container header .logos .modern-data
+{
+    float: none;
+    width: 210px;
+    height: 80px;
+    margin: 0 auto 10px;
+    background: url('../imgs/mdb_n1_backup-mini.png');
+}
+
+
+/*Хлебные крошки*/
+.breadcrumbs
+{
+    height: auto;
+}
+.breadcrumb > .bc-active
+{
+    font-size: 13px;
+}
+.breadcrumb > li + li::before
+{
+    padding: 2%;
+}
+
+
+/*Вкладки*/
+.tab
+{
+    padding: 5px;
+}
+
+
+/*Абзацы и заголовки*/
+.main-content .main-content-float ul
+{
+    margin: 10px;
+}
+.download-info
+{
+    margin: 0 10px;
+}
+.info-prev-images
+{
+    display: inline-block;
+}
+
+
+/*Картинки со ссылками на результаты опросов*/
+.left-float
+{
+    display: table;
+    float: none;
+    margin: 10px auto;
+}
+
+
+/*Форма*/
+aside.side-form
+{
+    width: 266px;
+}
+aside.side-form form
+{
+    width: 250px;
+}
+aside.side-form form .row p:last-child
+{
+    width: 150px;
+}
+aside.side-form form .row input,
+aside.side-form form .row select
+{
+    width: 140px;
+}
+.selecter,
+.selecter-selected
+{
+    width: 140px;
+}
+aside.side-form form input[type='submit']
+{
+    margin-top: 10px;
+}
+
+
+/*Всё что связано с футером*/
+footer .socials
+{
+    display: table;
+    float: none;
+    margin: 5px auto;
+}
+.footer-links
+{
+    display: table;
+    margin: 0 auto;
+    padding: 10px 5px 0;
+}
+
+
+
+
+
+
+
+
+
+

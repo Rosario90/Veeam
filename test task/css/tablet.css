@@ -1,0 +1,80 @@
+/*Контейнер*/
+.container
+{
+    width: auto;
+}
+
+
+/*Содержимое вкладок*/
+.tab-content
+{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/*Баннер*/
+.banner
+{
+    width: auto;
+    height: auto;
+    background-color: #54b948;
+    background-image: none;
+    background-position: 0 0;
+}
+.banner h4
+{
+    padding: 3% 3% 0 3%;
+}
+.banner p
+{
+    padding: 3%;
+}
+
+
+/*Абзацы и заголовки*/
+.main-content-float
+{
+    float: none;
+    width: auto;
+}
+.download-info
+{
+    margin: 0 0 0 217px;
+}
+.main-content .main-content-float h3
+{
+    clear: both;
+    text-align: center;
+}
+.info-prev-images
+{
+    display: flex;
+    justify-content: space-around;
+}
+.main-content .main-content-float img.info-prev
+{
+    padding: 3px;
+}
+
+
+/*Картинки со ссылками на результаты опросов*/
+.left-float
+{
+    margin: 10px auto 20px;
+}
+
+
+/*Форма*/
+aside.side-form
+{
+    clear: both;
+    margin: 10px auto;
+}
+
+
+/*Футер*/
+footer
+{
+    width: auto;
+}
